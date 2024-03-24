@@ -3,6 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\TreatmentResource\Pages;
+use App\Filament\Resources\TreatmentResource\Widgets\TreatmentsOverview;
 use App\Filament\Resources\TreatmentResource\RelationManagers;
 use App\Models\Treatment;
 use Filament\Forms;
@@ -75,6 +76,13 @@ class TreatmentResource extends Resource
             //
         ];
     }
+
+    public static function getWidgets(): array
+{
+    return [
+        TreatmentResource\Widgets\TreatmentsOverview::class,
+    ];
+}
 
     public static function getPages(): array
     {

@@ -15,7 +15,7 @@ class TreatmentsOverview extends BaseWidget
     {
         return [
             Stat::make('Total Treatments', $this->getPageTableRecords()->count()),
-            Stat::make('Earned', $this->getPageTableRecords()->whereNotNull('price')->sum('price') . ' €'), // fix so it displays  the sum of all prices in treatments table.
+            Stat::make('Total Earned', $this->getPageTableRecords()->whereNotNull('price')->sum('price') . ' €'), // fix so it displays  the sum of all prices in treatments table.
         ];
     }
 

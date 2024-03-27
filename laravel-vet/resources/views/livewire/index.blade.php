@@ -51,38 +51,7 @@
         </style>
     </head>
     <body class="antialiased">
-    
-
-<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-  <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Vet Clinic</span>
-  </a>
-  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><p class="text-lg">Schedule Appointment<p></button>
-      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-  </div>
-  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-      <li>
-        <a href="/" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 text-2xl" aria-current="page">Home</a>
-      </li>
-      <li>
-        <a href="/about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-2xl">About</a>
-      </li>
-      <li>
-        <a href="/contact" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-2xl">Contact</a>
-      </li>
-    </ul>
-  </div>
-  </div>
-</nav>
-
+        @include('layouts.navbar')
         <header id="up" class="bg-no-repeat bg-center bg-cover h-screen relative">
             <div class="h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
                 <div class="mx-2 text-center">
@@ -163,59 +132,6 @@
                 </div>
             </div>
         </div>
-        <footer class="relative pt-8 pb-6 bg-gray-900">
-          <div class="container mx-auto px-4">
-            <div class="flex flex-wrap text-left lg:text-left">
-              <div class="w-full lg:w-6/12 px-4">
-                <h4 class="text-3xl fonat-semibold text-white">Let's keep in touch!</h4>
-                <h5 class="text-lg mt-0 mb-2 text-white">
-                  Find us on any of these platforms.
-                </h5>
-                <div class="mt-6 lg:mb-0 mb-6">
-                  <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                    <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                    <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                    <i class="fab fa-instagram"></i></button>
-                  </button>
-                </div>
-              </div>
-              <div class="w-full lg:w-6/12 px-4">
-                <div class="flex flex-wrap items-top mb-6">
-                  <div class="w-full lg:w-4/12 px-4 ml-auto">
-                    <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
-                    <ul class="list-unstyled">
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">About Us</a>
-                      </li>
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">Blog</a>
-                      </li>
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">Help Animals</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="w-full lg:w-4/12 px-4">
-                    <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
-                    <ul class="list-unstyled">
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">Diplomas</a>
-                      </li>
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">Terms &amp; Conditions</a>
-                      </li>
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">Privacy Policy</a>
-                      </li>
-                      <li>
-                        <a class="text-white hover:text-Gray-800 font-semibold block pb-2 text-sm">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        @include('layouts.footer')
     </body>
 </html>

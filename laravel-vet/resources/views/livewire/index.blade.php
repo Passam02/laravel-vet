@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
 
         @vite('resources/css/app.css')
         <style>
@@ -47,7 +48,9 @@
             .bi{
                 box-sizing: unset !important;
             }
-            
+            .inset-0{
+                inset: auto;
+            }
         </style>
     </head>
     <body class="antialiased">
@@ -132,6 +135,7 @@
                 </div>
             </div>
         </div>
+
         @include('layouts.footer')
     </body>
 </html>

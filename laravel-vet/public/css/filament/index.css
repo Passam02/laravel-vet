@@ -32,6 +32,3 @@
 .bi{
     box-sizing: unset !important;
 }
-.inset-0{
-    inset: auto;
-}

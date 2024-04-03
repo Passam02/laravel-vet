@@ -17,7 +17,7 @@
     </head>
     <body class="antialiased">
         @include('layouts.navbar')
-        <header id="up" class="bg-no-repeat bg-center bg-cover h-screen relative">
+        <div id="up" class="bg-no-repeat bg-center bg-cover h-screen relative">
             <div class="h-screen bg-opacity-50 bg-black flex items-center justify-center" style="background:rgba(0,0,0,0.5);">
                 <div class="mx-2 text-center">
                     <h1 class="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl pb-12">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
         <div style="background-color: #F5F0EC;">
             <div class="pb-20">
                 <div class="grid sm:grid-cols-2 grid-cols-1" style="--bs-gutter-x: 0">

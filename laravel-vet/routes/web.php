@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('livewire/index');
 });
+Route::get('/about', function () {
+    return view('livewire/about');
+});

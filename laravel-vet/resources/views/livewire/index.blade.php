@@ -12,7 +12,6 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-
         @vite('resources/css/app.css')
         <link href="{{ asset('css/filament/index.css') }}" rel="stylesheet">
     </head>

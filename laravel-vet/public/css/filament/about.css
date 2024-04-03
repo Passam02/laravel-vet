@@ -4,3 +4,6 @@
     padding-top: 15%;
     padding-bottom: 15%;
 }
+.inset-0{
+    inset: auto;
+}

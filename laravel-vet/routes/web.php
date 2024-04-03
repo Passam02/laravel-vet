@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('livewire/about');
 });
+Route::get('/contact', function () {
+    return view('livewire/contact');
+});

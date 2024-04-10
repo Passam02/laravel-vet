@@ -28,7 +28,7 @@
                 </div>
                 <div class="grid sm:grid-cols-2 grid-cols-1 auto-rows-fr" style="--bs-gutter-x: 0">
                     <div class="row-span-6 order-1">
-                        <img class="size-full" src="{{asset('storage\images\about-img-1.jpg')}}">
+                        <img class="size-full" src="{{asset('images\about-img-1.jpg')}}">
                     </div>
                     <div class="oferta row-span-6 order-2">
                         <h1 class="font-bold text-4xl xs:text-5xl md:text-6xl pb-16">Welcoming</h1>
@@ -39,10 +39,10 @@
                         <h5 class="text-2xl xs:text-2xl md:text-3xl">At our vet clinic, we understand that pets are family. That's why we go above and beyond to deliver personalized care that meets the unique needs of each animal. Whether it's a routine wellness exam or treatment for an illness, our experienced veterinarians and staff are dedicated to providing compassionate and comprehensive care. With cutting-edge technology and a deep love for animals, we strive to be your trusted partner in keeping your furry friends thriving.  </h5>
                     </div>                    
                     <div class="row-span-6 order-3 sm:order-4">
-                        <img class="size-full" src="{{asset('storage\images\about-img-2.jpg')}}">
+                        <img class="size-full" src="{{asset('images\about-img-2.jpg')}}">
                     </div>               
                     <div class="row-span-6 order-5">
-                        <img class="size-full" src="{{asset('storage\images\about-img-3.jpg')}}">
+                        <img class="size-full" src="{{asset('images\about-img-3.jpg')}}">
                     </div>
                     <div class="oferta row-span-6 order-6">
                         <h1 class="font-bold text-4xl xs:text-5xl md:text-6xl pb-16">Pets Well Being</h1>
